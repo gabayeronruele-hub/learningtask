@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Top 10 Favorites</title>
+    <style>
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 20px;
+           
+            background-image: url('https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2070');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+            margin-bottom: 30px;
+        }
+
+       
+        .myContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        
+        .myItem {
+            background-color: rgba(255, 255, 255, 0.95);
+            border: 2px solid #800000; /* Dark red border based on the wireframe */
+            border-radius: 4px;
+            width: calc(20% - 20px); /* 5 items per row minus the gap */
+            min-width: 180px; /* Ensures boxes don't get too small on narrow screens */
+            padding: 10px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            display: flex;
+            flex-direction: column;
+        }
+
+      
+        .top-label {
+            font-weight: bold;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+        }
+
+        
+        .item-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            margin-bottom: 10px;
+            background-color: #e0e0e0;
+        }
+
+        
+        .item-title {
+            font-weight: bold;
+            font-size: 1rem;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+
+       
+        .item-desc {
+            font-size: 0.8rem;
+            text-align: center;
+            line-height: 1.4;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Top 10 Favorites</h1>
+
+    <div class="myContainer">
+        
+        <div class="myItem">
+            <div class="top-label">Top 1</div>
+            
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/b5/Beauty_and_the_Bestie_official_movie_poster.jpg" alt="Beauty and the Bestie" class="item-image">
+            <div class="item-title">Beauty and the Bestie</div>
+            <div class="item-desc">A hilarious action-comedy about a cop and his former best friend who must team up on a secret mission.</div>
+        </div>
+
+     
+        <div class="myItem">
+            <div class="top-label">Top 2</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/5/5a/Praybeytbenjofficial.png" alt="Praybeyt Benjamin" class="item-image">
+            <div class="item-title">Praybeyt Benjamin</div>
+            <div class="item-desc">A comedy about a young man who enlists in the military to prove himself and save his family.</div>
+        </div>
+
+       
+        <div class="myItem">
+            <div class="top-label">Top 3</div>
+            <img src="https://resizing.flixster.com/lI1WqQbGmA8ID5uZkQOzkUYexyA=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p11387901_v_v8_ac.jpg" alt="The Amazing Praybeyt Benjamin" class="item-image">
+            <div class="item-title">The Amazing Praybeyt Benjamin</div>
+            <div class="item-desc">The action-packed sequel where Benjamin tackles a new threat to the nation while dealing with a young ward.</div>
+        </div>
+
+    
+        <div class="myItem">
+            <div class="top-label">Top 4</div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiT7X7a4BXkYNiaSdmfchFB1-VXZkNoJ4B84OKtqnwusSTbysEI9iI4qI8pWc-iBDbuJVEkBOC7TPg_-V7bBFQhcon5vp6EettCPmX9EYiJWJGAU2BWt1b-qV6TvXPb4KcPZEwBQA/s1600/wuld.jpg" alt="Woke Up Like This" class="item-image">
+            <div class="item-title">Woke Up Like This</div>
+            <div class="item-desc">A laugh-out-loud comedy about a basketball player and a model who mysteriously swap bodies.</div>
+        </div>
+
+       
+        <div class="myItem">
+            <div class="top-label">Top 5</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/43/DBZ_THE_MOVIE_NO._14.png" alt="Dragon Ball Z: Battle of Gods" class="item-image">
+            <div class="item-title">Dragon Ball Z: Battle of Gods</div>
+            <div class="item-desc">Goku faces off against Beerus, the terrifying God of Destruction, to save Earth from annihilation.</div>
+        </div>
+
+      
+        <div class="myItem">
+            <div class="top-label">Top 6</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/a/a0/A_Quiet_Place_film_poster.png" alt="A Quiet Place" class="item-image">
+            <div class="item-title">A Quiet Place</div>
+            <div class="item-desc">A tense thriller where a family must live in total silence to hide from blind monsters with acute hearing.</div>
+        </div>
+
+        
+        <div class="myItem">
+            <div class="top-label">Top 7</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/8c/Maria_Leonora_Teresa.jpg" alt="Maria Leonora Teresa" class="item-image">
+            <div class="item-title">Maria Leonora Teresa</div>
+            <div class="item-desc">A chilling horror film about mourning parents who are given life-sized dolls to cope with their deceased children.</div>
+        </div>
+
+  
+        <div class="myItem">
+            <div class="top-label">Top 8</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4c/Pagpag_film.jpg" alt="Pagpag" class="item-image">
+            <div class="item-title">Pagpag: Siyam na Buhay</div>
+            <div class="item-desc">A terrifying supernatural horror film based on the Filipino superstition of never going straight home after a wake.</div>
+        </div>
+
+        
+        <div class="myItem">
+            <div class="top-label">Top 9</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2c/Friday_the_13th_%281980%29_theatrical_poster.jpg" alt="Friday the 13th" class="item-image">
+            <div class="item-title">Friday the 13th</div>
+            <div class="item-desc">The legendary slasher film that introduces the terrifying tale of Jason Voorhees and Camp Crystal Lake.</div>
+        </div>
+
+       
+        <div class="myItem">
+            <div class="top-label">Top 10</div>
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/70/Freddy_vs._Jason_movie.jpg" alt="Jason Vs Freddy" class="item-image">
+            <div class="item-title">Freddy vs. Jason</div>
+            <div class="item-desc">An epic horror crossover battle that pits two of cinema's most iconic and terrifying slashers against each other.</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
